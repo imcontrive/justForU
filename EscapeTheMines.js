@@ -1,3 +1,6 @@
+
+// 5KYU: Escape the mines
+
 function solve(map, miner, exit, path=[]) {
   if (!map[miner.x] || !map[miner.x][miner.y]) return false;
   if (miner.x == exit.x && miner.y == exit.y) return path;
